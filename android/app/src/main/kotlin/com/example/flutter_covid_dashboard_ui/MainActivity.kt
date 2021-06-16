@@ -1,4 +1,4 @@
-package com.example.flutter_covid_dashboard_ui
+package com.indravardhan.covidui
 
 import io.flutter.embedding.android.FlutterActivity
 
