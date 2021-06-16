@@ -24,7 +24,7 @@ class CovidBarChart extends StatelessWidget {
             padding: const EdgeInsets.all(20.0),
             alignment: Alignment.centerLeft,
             child: Text(
-              'Daily New Cases',
+              'New Cases-Daily',
               style: const TextStyle(
                 fontSize: 22.0,
                 fontWeight: FontWeight.bold,
@@ -48,19 +48,19 @@ class CovidBarChart extends StatelessWidget {
                     getTitles: (double value) {
                       switch (value.toInt()) {
                         case 0:
-                          return 'May 24';
+                          return 'June 10';
                         case 1:
-                          return 'May 25';
+                          return 'June 11';
                         case 2:
-                          return 'May 26';
+                          return 'June 12';
                         case 3:
-                          return 'May 27';
+                          return 'June 13';
                         case 4:
-                          return 'May 28';
+                          return 'June 14';
                         case 5:
-                          return 'May 29';
+                          return 'June 15';
                         case 6:
-                          return 'May 30';
+                          return 'June 16';
                         default:
                           return '';
                       }

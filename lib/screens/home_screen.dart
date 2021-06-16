@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  'COVID-19',
+                  'COVID 19',
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 25.0,
@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 CountryDropdown(
-                  countries: ['CN', 'FR', 'IN', 'IT', 'UK', 'USA'],
+                  countries: ['CN', 'FR', 'IND', 'IT', 'UK', 'USA'],
                   country: _country,
                   onChanged: (val) => setState(() => _country = val),
                 ),
@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: screenHeight * 0.01),
                 Text(
-                  'If you feel sick with any COVID-19 symptoms, please call or text us immediately for help',
+                  'If you feel sick with any COVID-19 symptoms, please call immediately for help',
                   style: const TextStyle(
                     color: Colors.white70,
                     fontSize: 15.0,

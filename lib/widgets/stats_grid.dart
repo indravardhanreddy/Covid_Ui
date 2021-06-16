@@ -10,17 +10,17 @@ class StatsGrid extends StatelessWidget {
           Flexible(
             child: Row(
               children: <Widget>[
-                _buildStatCard('Total Cases', '1.81 M', Colors.orange),
-                _buildStatCard('Deaths', '105 K', Colors.red),
+                _buildStatCard('Total Cases', '63.8K', Colors.orange),
+                _buildStatCard('Deaths', '5K', Colors.red),
               ],
             ),
           ),
           Flexible(
             child: Row(
               children: <Widget>[
-                _buildStatCard('Recovered', '391 K', Colors.green),
-                _buildStatCard('Active', '1.31 M', Colors.lightBlue),
-                _buildStatCard('Critical', 'N/A', Colors.purple),
+                _buildStatCard('Recovered', '50 K', Colors.green),
+                _buildStatCard('Active', '150K', Colors.lightBlue),
+                _buildStatCard('Critical', '2K', Colors.purple),
               ],
             ),
           ),
